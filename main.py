@@ -24,7 +24,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # loading the saved models
 
-weather_model = pickle.load(open('/home/dinith/Desktop/england weather data/weather_model.sav', 'rb'))
+weather_model = pickle.load(open('weather_model.sav', 'rb'))
 
 
 
