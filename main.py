@@ -7,20 +7,7 @@ from streamlit_option_menu import option_menu
 import numpy as np
 
 
-page_bg_img = f"""
-<style>
-[data-testid="stAppViewContainer"] > .main {{
-background-image: 1.jpeg;
-background-size: 100%;
-background-position: top left;
-background-repeat: no-repeat;
-background-attachment: local;
-}}
 
-</style>
-"""
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # loading the saved models
 
